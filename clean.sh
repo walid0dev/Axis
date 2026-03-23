@@ -1,3 +1,4 @@
+# 😦
 rm ./public/* ./src/App*
 truncate -s 0 ./README.md
 sed -i '/icon/d' ./index.html
