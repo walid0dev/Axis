@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: "Georgia";
+  src: url('/public/fonts/georgia.ttf') format('ttf');
+  font-display: swap;
+}
 @import "tailwindcss";
+
 
 @custom-variant dark (&:is(.dark *));
 
@@ -35,9 +42,9 @@
   --sidebar-accent-foreground: #333333;
   --sidebar-border: #d0d0d0;
   --sidebar-ring: #606060;
-  --font-sans: Montserrat, sans-serif;
-  --font-serif: Georgia, serif;
-  --font-mono: Fira Code, monospace;
+  --font-sans: "Montserrat", sans-serif;
+  --font-serif: "Georgia", serif;
+  --font-mono: "Fira Code", monospace;
   --radius: 0.35rem;
   --shadow-x: 0px;
   --shadow-y: 2px;
@@ -90,9 +97,9 @@
   --sidebar-accent-foreground: #d9d9d9;
   --sidebar-border: #353535;
   --sidebar-ring: #a0a0a0;
-  --font-sans: Inter, sans-serif;
-  --font-serif: Georgia, serif;
-  --font-mono: Fira Code, monospace;
+  --font-sans: "Montserrat", sans-serif;
+  --font-serif: "Georgia", serif;
+  --font-mono: "Fira Code", monospace;
   --radius: 0.35rem;
   --shadow-x: 0px;
   --shadow-y: 2px;
